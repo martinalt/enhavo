@@ -6,9 +6,9 @@
  * @author gseidel
  */
 
-namespace Enhavo\Bundle\FormBundle\Form\Error;
+namespace Enhavo\Bundle\FormBundle\Error;
 
-use Symfony\Component\Translation\TranslatorInterface;
+use Symfony\Contracts\Translation\TranslatorInterface;
 use Symfony\Component\Form\FormInterface;
 
 class FormErrorResolver {
