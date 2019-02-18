@@ -35,7 +35,6 @@ return [
     Enhavo\Bundle\DashboardBundle\EnhavoDashboardBundle::class => ['all' => true],
     Enhavo\Bundle\InstallerBundle\EnhavoInstallerBundle::class => ['all' => true],
     Enhavo\Bundle\GeneratorBundle\EnhavoGeneratorBundle::class => ['all' => true],
-
     Enhavo\Bundle\ArticleBundle\EnhavoArticleBundle::class => ['all' => true],
     Enhavo\Bundle\PageBundle\EnhavoPageBundle::class => ['all' => true],
     Enhavo\Bundle\CategoryBundle\EnhavoCategoryBundle::class => ['all' => true],
@@ -46,12 +45,10 @@ return [
     Enhavo\Bundle\CalendarBundle\EnhavoCalendarBundle::class => ['all' => true],
     Enhavo\Bundle\ContentBundle\EnhavoContentBundle::class => ['all' => true],
     Enhavo\Bundle\ContactBundle\EnhavoContactBundle::class => ['all' => true],
-    Enhavo\Bundle\GeneratorBundle\EnhavoGeneratorBundle::class => ['all' => true],
     Enhavo\Bundle\CommentBundle\EnhavoCommentBundle::class => ['all' => true],
     Enhavo\Bundle\RoutingBundle\EnhavoRoutingBundle::class => ['all' => true],
     Enhavo\Bundle\NavigationBundle\EnhavoNavigationBundle::class => ['all' => true],
     Enhavo\Bundle\ProjectBundle\EnhavoProjectBundle::class => ['all' => true],
     Enhavo\Bundle\TranslationBundle\EnhavoTranslationBundle::class => ['all' => true],
-
-    //Enhavo\Bundle\ShopBundle\EnhavoShopBundle::class => ['all' => true],
+    Symfony\WebpackEncoreBundle\WebpackEncoreBundle::class => ['all' => true],
 ];
